@@ -1,36 +1,46 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+#Number Guessing Game 🎯
 
-First, run the development server:
+A fun and interactive number guessing game built with **Next.js**, **TypeScript**, and **Tailwind CSS**. The game challenges players to guess a random number between 1 and 100 with feedback after each guess, and tracks the number of attempts.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🎮 **Gameplay**: Guess the number between 1 and 100 with hints provided (too high or too low).
+- 🔄 **Reset Option**: Restart the game with a new number at any time.
+- 🏆 **Win Condition**: Receive a congratulatory message when the correct number is guessed.
+- 🔢 **Attempts Counter**: Keeps track of how many guesses you've made.
+- 🎨 **Responsive UI**: Styled using **Tailwind CSS** with a clean and responsive design.
+- 🌈 **Confetti Animation**: Celebrate your victory with a confetti effect upon guessing the correct number.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Next.js**: For fast and modern web development.
+- **TypeScript**: Ensures type safety and improved development experience.
+- **Tailwind CSS**: For easy-to-manage, utility-first responsive styling.
 
-## Learn More
+## Installation
 
-To learn more about Next.js, take a look at the following resources:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Tahasaif3/Number-Guessing-Game.git
+   ```
+2. Navigate to the project directory:
+   ```bash
+   cd number-guessing-game
+   ```
+3. Install the dependencies:
+   ```bash
+   npm install
+   ```
+4. Start the development server:
+   ```bash
+   npm run dev
+   ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## How to Play
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Enter a number between 1 and 100 in the input field.
+2. Click the "Submit Guess" button or press Enter.
+3. You’ll receive feedback whether your guess is too high or too low.
+4. Keep guessing until you find the correct number.
+5. Once you guess correctly, celebrate your win and choose to play again or reset the game.
